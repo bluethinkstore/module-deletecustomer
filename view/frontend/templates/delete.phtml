@@ -1,0 +1,12 @@
+<div class='card'>
+  <h1 class='heading'>Confirm Delete Account</h1>
+  <hr>
+  <p>
+    Deleting your account will remove all of your information from our database. This cannot be undone.
+  </p>
+  <form action="<?= $block->escapeHtmlAttr($block->getUrl('deletecustomer/account/delete')) ?>" method="POST">
+    <input type="checkbox" name="isConfirmToDelete" required>
+    <span style="color:#ff7b7b;">Yes, I want to delete my account</span>
+    <input type="submit" value="Delete" class="btn-submit">
+  </form>
+</div>

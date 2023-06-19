@@ -1,0 +1,23 @@
+{
+    "name": "bluethinkinc/module-deletecustomer",
+    "description": "This extension helps the customer to delete their account.",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "bluethinkinc",
+            "email": "info@bluethinkinc.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "BluethinkInc\\DeleteCustomer\\": ""
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.card {
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px #c4c4c4;
+    border: 1px solid red;
+}
+
+.heading {
+    color: #FF5252;
+}
+
+.btn-submit {
+    display: block;
+    margin: 20px 0;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #FF0000;
+    font-size: large;
+    font-weight: bold;
+}
