@@ -1,0 +1,2 @@
+# module-deletecustomer
+Delete Customer
